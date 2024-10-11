@@ -1,0 +1,92 @@
+[
+    {
+        "phone_id": 178,
+        "phone_slug": "apple-iphone-15-pro-max-512gb-rom-8gb-ram-97279893",
+        "phone_name": "iphone 15 pro max (512)",
+        "phone_img": "https://laravelapi.jambo.ng/storage/images/JAMBO-419184121701347079.jpg",
+        "paired_id": 138,
+        "paired_phone": "Samsung Galaxy A04e (3GB/32GB)",
+        "paired_phone_img": "https://laravelapi.jambo.ng/storage/images/JAMBO-865252221701161525.webp"
+
+    },
+    {
+        "phone_id": 183,
+        "phone_slug": "iphone-14-pro-max-6gb-ram-512gb-rom-50156164",
+        "phone_name": "iphone 14 pro max (512)",
+        "phone_img": "https://laravelapi.jambo.ng/storage/images/JAMBO-137717031701351446.webp",
+        "paired_id": 135,
+        "paired_phone": "Samsung Galaxy A04e (4GB/128GB)",
+        "paired_phone_img": "https://laravelapi.jambo.ng/storage/images/JAMBO-559265911701102045.webp"
+
+    },
+    {
+        "phone_id": 181,
+        "phone_slug": "iphone-14-pro-max-6gb-ram-256gb-rom-58064249",
+        "phone_name": "iphone 14 pro max (256)",
+        "phone_img": "https://laravelapi.jambo.ng/storage/images/JAMBO-137717031701351446.webp",
+        "paired_id": 138,
+        "paired_phone": "Samsung Galaxy A04e (3GB/32GB)",
+        "paired_phone_img": "https://laravelapi.jambo.ng/storage/images/JAMBO-865252221701161525.webp"
+
+    },
+    {
+        "phone_id": 136,
+        "phone_slug": "samsung-galaxy-z-flip-5-67-256gb-rom-8gb-ram-50173584",
+        "phone_name": "Samsung galaxy Z flip (256)",
+        "phone_img": "https://www.atara.ng/media/catalog/product/cache/9e54f17dfbf433015ca0ba037b0c2ed9/s/a/samsung_galaxy_z_flip2.jpg",
+        "paired_id": 138,
+        "paired_phone": "Samsung Galaxy A04e (3GB/32GB)",
+        "paired_phone_img": "https://laravelapi.jambo.ng/storage/images/JAMBO-865252221701161525.webp"
+
+    },
+    {
+        "phone_id": 164,
+        "phone_slug": "samsung-galaxy-s23-5g-512gb-rom-8gb-ram-47437632",
+        "phone_name": "Samsung Galaxy S23 (512GB)",
+        "phone_img": "https://laravelapi.jambo.ng/storage/images/JAMBO-638297331701260918.jpg",
+        "paired_id": 138,
+        "paired_phone": "Samsung Galaxy A04e (3GB/32GB)",
+        "paired_phone_img": "https://laravelapi.jambo.ng/storage/images/JAMBO-865252221701161525.webp"
+
+    },
+    {
+        "phone_id": 162,
+        "phone_slug": "samsung-galaxy-s23-8gb-ram-256gb-rom-14321685",
+        "phone_name": "Samsung Galaxy S23 (256GB)",
+        "phone_img": "https://laravelapi.jambo.ng/storage/images/JAMBO-055520011701255957.jpg",
+        "paired_id": 141,
+        "paired_phone": "Samsung Galaxy A03 CORE (2GB/32GB)",
+        "paired_phone_img": "https://laravelapi.jambo.ng/storage/images/JAMBO-853772381701166158.webp"
+
+    },
+    {
+        "phone_id": 326,
+        "phone_slug": "infinix-hot-40i-4gbram-128gb-rom-75750457",
+        "phone_name": "Infinix Hot 40i (128GB)",
+        "phone_img": "https://laravelapi.jambo.ng/storage/images/JAMBO-259522301702385573.jpg",
+        "paired_id": 225,
+        "paired_phone": "Nokia 105 Africa Edition",
+        "paired_phone_img": "https://laravelapi.jambo.ng/storage/images/JAMBO-587536911701766548.jpg"
+
+    },
+    {
+        "phone_id": 146,
+        "phone_slug": "tecno-camon-20-premier-5g-8gb-ram-512gb-rom-57361675",
+        "phone_name": "Tecno Camon 20 Premier 5G (512GB)",
+        "phone_img": "https://laravelapi.jambo.ng/storage/images/JAMBO-339659461701184858.png",
+        "paired_id": 225,
+        "paired_phone": "Nokia 105 Africa Edition",
+        "paired_phone_img": "https://laravelapi.jambo.ng/storage/images/JAMBO-587536911701766548.jpg"
+
+    },
+    {
+        "phone_id": 100,
+        "phone_slug": "vivo-y36-8ram-128gb-05018790",
+        "phone_name": "VIVO Y36 (128GB)",
+        "phone_img": "https://laravelapi.jambo.ng/storage/images/JAMBO-520170901700921034.webp",
+        "paired_id": 225,
+        "paired_phone": "Nokia 105 Africa Edition",
+        "paired_phone_img": "https://laravelapi.jambo.ng/storage/images/JAMBO-587536911701766548.jpg"
+
+    }
+]

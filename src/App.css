@@ -1,0 +1,39 @@
+.dropdown-content{
+    display: none;
+}
+.dropdown {
+    position: relative;
+    cursor: pointer;
+  }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+.cart-item-qty{
+    position: absolute;
+    top:4px;
+    right: 3px;
+    font-size: 12px;
+    color: #eee;
+    background-color: #000000;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 600;
+  
+  }
+
+
+  .scrollable-div {
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+
+  .swal2-popup .swal2-styled.swal2-confirm {
+    background-color: #206a24 !important;
+  }
+  
