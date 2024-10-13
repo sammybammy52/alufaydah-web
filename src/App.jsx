@@ -51,14 +51,14 @@ import VendorDirectory from "./pages/VendorDirectory/VendorDirectory";
 
 function App() {
   useEffect(() => {
-    ReactGA.initialize("G-P9CMKKPQQV"); // Replace 'YOUR_TRACKING_ID' with your actual ID
+    // ReactGA.initialize("G-P9CMKKPQQV"); // Replace 'YOUR_TRACKING_ID' with your actual ID
     ReactGA.pageview(window.location.pathname + window.location.search);
 
     const options = {
       autoConfig: true, // set pixel's autoConfig. More info: https://developers.facebook.com/docs/facebook-pixel/advanced/
       debug: false, // enable logs
     };
-    ReactPixel.init("gmslxerdkjm0k370zdqq2o5zjsw3lk", {}, options);
+    // ReactPixel.init("gmslxerdkjm0k370zdqq2o5zjsw3lk", {}, options);
     ReactPixel.pageView(); // For tracking page view
   }, []);
   const router = createBrowserRouter(
