@@ -25,7 +25,7 @@ const HomePage = () => {
     <>
     <Helmet>
     <title>
-    Jambo.ng - Your trusted online store
+    Ahlulfaydah - Your trusted online store
     </title>
       </Helmet>
     {/* <PriceFlunctuationAlert isOpen={isOpen} onClose={onClose}/> */}

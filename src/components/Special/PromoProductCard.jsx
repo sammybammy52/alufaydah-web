@@ -56,12 +56,12 @@ const PromoProductCard = ({ product }) => {
               <Avatar
                 height={7}
                 width={7}
-                name={"Jambo"}
+                name={"Ahlulfaydah"}
                 color={"#fff"}
                 backgroundColor={"#206a24"}
               />
               <Link to={"/"} className="text-xs text-primary">
-                Jambo NG
+                Ahlu-l-faydah
               </Link>
             </div>
           )}

@@ -32,7 +32,7 @@ const BusinessListingCard = ({ business }) => {
            
 
             <img
-              src={business?.storeImg ? `${VITE_FULL_URL}/${VITE_IMAGE_URL}/${business?.storeImg}` : '/jambo-big.png'}
+              src={business?.storeImg ? `${VITE_FULL_URL}/${VITE_IMAGE_URL}/${business?.storeImg}` : '/al-bg.png'}
               alt={business?.storeName}
               className="w-full h-full object-cover rounded-2xl border-[1px] bg-gray-100"
             />

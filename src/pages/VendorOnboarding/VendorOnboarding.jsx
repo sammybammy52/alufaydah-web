@@ -67,7 +67,7 @@ const VendorOnboarding = () => {
       <div className="bg-gray-50 flex justify-center items-center h-[100vh]">
         <div className="bg-white border shadow-sm max-w-screen-md w-full mx-auto rounded-md  p-5">
           <h1 className="font-bold text-gray-700 text-xl mb-2">
-            Become a Vendor on Jambo.ng
+            Become a Vendor on Ahlulfaydah Market
           </h1>
 
           <div className="max-h-[68vh] overflow-y-scroll">
@@ -78,7 +78,7 @@ const VendorOnboarding = () => {
           <div className="flex gap-2 items-center py-2 px-3 bg-primary bg-opacity-20 my-2 rounded-md">
             <input className="w-6 h-6" value={checkbox} checked={checkbox} onChange={(e) => setCheckbox(e.target.checked)} type="checkbox" name="" id="" />
             <p className="text-sm text-primary">
-              By registering as a vendor on Jambo.ng, you acknowledge that you
+              By registering as a vendor on Ahlulfaydah Market, you acknowledge that you
               have read, understood, and agree to be bound by these terms and
               conditions.
             </p>

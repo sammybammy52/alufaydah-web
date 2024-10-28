@@ -84,7 +84,7 @@ const Footer = () => {
               </form>
               <div className="news-text mt-[23px]">
                 <h3 className="uppercase font-semibold mb-3 text-white">
-                  new to jambo?
+                  new to Ahlulfaydah?
                 </h3>
                 <p className="text-white">
                   Subscribe to our newletter to get updates on our latest
