@@ -28,7 +28,7 @@ const ThankYou = () => {
           </svg>
           <h1 class="text-4xl font-bold">Thank You !</h1>
           <p>
-            Thank you for Shopping with us, Your Transaction Reference is <span className="text-[#206a24]">{ref}</span> Check your email for the full details.
+            Thank you for your patronage, Your Transaction Reference is <span className="text-[#206a24]">{ref}</span> Check your email for the full details.
           </p>
           <a href="/" class="inline-flex items-center px-4 py-2 text-white bg-[#206a24] border border-[#206a24] rounded rounded-full hover:bg-[#c20959de] focus:outline-none focus:ring">
             <svg

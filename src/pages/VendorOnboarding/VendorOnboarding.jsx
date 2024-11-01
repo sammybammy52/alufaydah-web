@@ -11,6 +11,9 @@ import withReactContent from "sweetalert2-react-content";
 import TermsConditions from "./TermsConditions";
 import Loading from "../../components/Loading/Loading";
 import { useAuthContext } from "../../context/AuthContext";
+import VendorPaymentModal from "../../components/Modals/VendorPaymentModal";
+import { useDisclosure } from "@chakra-ui/react";
+import PayBankModal from "../../components/Modals/PayBankModal";
 
 const VendorOnboarding = () => {
   const { handleUser } = useAuthContext();
@@ -18,6 +21,7 @@ const VendorOnboarding = () => {
   const { getRequest } = useDataContext();
   const [checkbox, setCheckbox] = useState(false);
   const [loading, setLoading] = useState(false);
+  const { isOpen, onClose, onOpen } = useDisclosure();
 
   const vendorCheck = async() => {
     setLoading(true);
@@ -34,6 +38,9 @@ const VendorOnboarding = () => {
     vendorCheck();
   }, [])
   
+  const handleOpenModal = () => {
+    onOpen();
+  }
 
   const handleSubmit = async () => {
     setLoading(true);
@@ -59,11 +66,23 @@ const VendorOnboarding = () => {
     }
     setLoading(false);
   };
+
+  const [bankModal, setBankModal] = useState(false);
+  const handleCloseBankModal = () => {
+    setBankModal(false);
+  }
+
+  const handleOpenBankModal = () => {
+    onClose(); //close first modal
+    setBankModal(true);
+
+  }
   return (
     <>
     {loading && <Loading/>}
       <NavBar />
-
+      <VendorPaymentModal isOpen={isOpen} onClose={onClose} handleClick={handleOpenBankModal}/>
+      <PayBankModal isOpen={bankModal} onClose={handleCloseBankModal} data={{ price: import.meta.env.VITE_REG_FEE, amount: import.meta.env.VITE_REG_FEE}}/>
       <div className="bg-gray-50 flex justify-center items-center h-[100vh]">
         <div className="bg-white border shadow-sm max-w-screen-md w-full mx-auto rounded-md  p-5">
           <h1 className="font-bold text-gray-700 text-xl mb-2">
@@ -84,7 +103,7 @@ const VendorOnboarding = () => {
             </p>
           </div>
 
-          <button disabled={!checkbox} onClick={handleSubmit} className="bg-primary disabled:hover:cursor-not-allowed disabled:hover:opacity-60 text-white py-2 w-full rounded-md">
+          <button disabled={!checkbox} onClick={handleOpenModal} className="bg-primary disabled:hover:cursor-not-allowed disabled:hover:opacity-60 text-white py-2 w-full rounded-md">
             Become a Vendor
           </button>
         </div>
