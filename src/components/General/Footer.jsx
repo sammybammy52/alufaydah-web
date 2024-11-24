@@ -49,13 +49,16 @@ const Footer = () => {
                 </div>
 
                 <div className="flex items-center gap-2 mt-4">
-                <FaPhoneAlt size={18} color="white"/> <a href="tel:+2349071864538" className="text-white hover:underline ">+234-907-186-4538</a>
+                <FaPhoneAlt size={18} color="white"/> <a href="tel:+2348066174070" className="text-white hover:underline ">+234-806-617-4070</a>
+                </div>
+                <div className="flex items-center gap-2 mt-4">
+                <FaPhoneAlt size={18} color="white"/> <a href="tel:+2348066136223" className="text-white hover:underline ">+234-806-613-6223</a>
                 </div>
 
                 <div className="mt-4">
                 <p className="text-white">For more enquiries, please send us an email</p>
-                <a href="mailto:info@jambo.ng">
-                <p className="text-primary hover:underline">info@jambo.ng</p>
+                <a href="mailto:info@ahlulfaydah.org">
+                <p className="text-primary hover:underline">info@ahlulfaydah.org</p>
                 </a>
               </div>
 
