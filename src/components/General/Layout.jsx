@@ -6,7 +6,7 @@ const Layout = () => {
   return (
     <>
     <Outlet/>
-    <PlayCenterIcon/>
+    {/* <PlayCenterIcon/> */}
     </>
   )
 }

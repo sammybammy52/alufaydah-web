@@ -303,7 +303,7 @@ const VariableProductDetails = () => {
                     <Avatar
                       height={7}
                       width={7}
-                      name={"Jambo"}
+                      name={"Ahlufaydah"}
                       color={"#fff"}
                       backgroundColor={"#206a24"}
                     />
@@ -311,7 +311,7 @@ const VariableProductDetails = () => {
                       // to={"/store/"}
                       className=" hover:underline text-primary"
                     >
-                      Jambo NG
+                      Ahlulfaydah
                     </Link>
                   </div>
                 )}

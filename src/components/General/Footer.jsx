@@ -2,7 +2,7 @@ import React from "react";
 import ALogo from "../../assets/al-logo.png";
 import { SlSocialYoutube, SlSocialInstagram } from "react-icons/sl";
 import { RiFacebookCircleLine } from "react-icons/ri";
-import { FaPhoneAlt,  FaTiktok } from 'react-icons/fa'
+import { FaPhoneAlt,  FaTiktok, FaTwitter } from 'react-icons/fa'
 import { GoMail } from "react-icons/go";
 import As from "../../assets/appstore.png";
 import Gp from "../../assets/googleplay.png";
@@ -31,21 +31,24 @@ const Footer = () => {
               <div className="social-div lg:pl-[30px]">
                 <h3 className="text-white mb-3">JOIN US ON</h3>
                 <div className="social-logos flex gap-4">
-                  <a href="http://youtube.com/jambomarketng">
+                  <a href="https://www.youtube.com/@ahlulfaydahtv8492">
                     <SlSocialYoutube color="white" size={20} />
                   </a>
 
-                  <a href="https://www.facebook.com/jambo.ng002/">
+                  <a href="https://www.facebook.com/ahlulfaydah?mibextid=JRoKGi">
                     <RiFacebookCircleLine color="white" size={20} />
                   </a>
 
-                  <a href="https://www.instagram.com/jambo.ng002/">
+                  <a href="https://www.instagram.com/ahlulfaydah_worldwide/">
                     <SlSocialInstagram color="white" size={20} />
                   </a>
-
-                  <a href="https://www.tiktok.com/@jambo.ng002">
-                    <FaTiktok color="white" size={20} />
+                  <a href="https://x.com/ahlulfaydah">
+                    <FaTwitter color="white" size={20} />
                   </a>
+
+                  {/* <a href="https://www.tiktok.com/@jambo.ng002">
+                    <FaTiktok color="white" size={20} />
+                  </a> */}
                 </div>
 
                 <div className="flex items-center gap-2 mt-4">
